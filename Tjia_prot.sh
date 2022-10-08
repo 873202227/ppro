@@ -5,5 +5,5 @@
 
 read -rp "Port: " port
 echo  "port:$port"
-ufw allow $port/tcp #"MD"
-ufw allow $port/udp #"MD"
+ufw allow $port #"MD"
+#ufw allow $port/udp #"MD"
